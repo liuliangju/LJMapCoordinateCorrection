@@ -20,23 +20,23 @@ Manually:
 Drag all files under `LJMapCoordinateCorrection/Classes` folder into your project.
 
 ## Method
-//判断是否在中国:<br />
+// 判断是否在中国:<br />
 ``` objc
 + (BOOL)isLocationOutOfChina:(CLLocationCoordinate2D)location
 ```
-//将WGS-84转为GCJ-02(火星坐标): <br />
+// 将WGS-84转为GCJ-02(火星坐标): <br />
 ``` objc
 + (CLLocationCoordinate2D)transformFromWGSToGCJ:(CLLocationCoordinate2D)wgsLoc;
 ```
-//将GCJ-02(火星坐标)转为百度坐标:<br />
+// 将GCJ-02(火星坐标)转为百度坐标:<br />
 ``` objc
 + (CLLocationCoordinate2D)transformFromGCJToBaidu:(CLLocationCoordinate2D)gcjLoc;
 ```
-//将百度坐标转为GCJ-02(火星坐标):<br />
+// 将百度坐标转为GCJ-02(火星坐标):<br />
 ``` objc
 + (CLLocationCoordinate2D)transformFromBaiduToGCJ:(CLLocationCoordinate2D)bdLoc;
 ```
-//将GCJ-02(火星坐标)转为WGS-84:<br />
+// 将GCJ-02(火星坐标)转为WGS-84:<br />
 ``` objc
 + (CLLocationCoordinate2D)transformFromGCJToWGS:(CLLocationCoordinate2D)gcjLoc;
 ```
