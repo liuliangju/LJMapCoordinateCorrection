@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A728FF181EA791A4001246C4 /* LJMapCoordinateToCorrect.m in Sources */ = {isa = PBXBuildFile; fileRef = A728FF161EA791A4001246C4 /* LJMapCoordinateToCorrect.m */; };
+		A728FF1B1EA79205001246C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A728FF1A1EA79205001246C4 /* ViewController.m */; };
+		A72CBA8D1EA790EC00E6F90C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A72CBA8C1EA790EC00E6F90C /* main.m */; };
+		A72CBA901EA790EC00E6F90C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A72CBA8F1EA790EC00E6F90C /* AppDelegate.m */; };
+		A72CBA961EA790EC00E6F90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72CBA941EA790EC00E6F90C /* Main.storyboard */; };
+		A72CBA981EA790EC00E6F90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72CBA971EA790EC00E6F90C /* Assets.xcassets */; };
+		A72CBA9B1EA790EC00E6F90C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72CBA991EA790EC00E6F90C /* LaunchScreen.storyboard */; };
+		A72CBAA61EA790EC00E6F90C /* LJMapCoordinateCorrectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72CBAA51EA790EC00E6F90C /* LJMapCoordinateCorrectionTests.m */; };
+		A72CBAB11EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72CBAB01EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A72CBAA21EA790EC00E6F90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72CBA801EA790EC00E6F90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72CBA871EA790EC00E6F90C;
+			remoteInfo = LJMapCoordinateCorrection;
+		};
+		A72CBAAD1EA790EC00E6F90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72CBA801EA790EC00E6F90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72CBA871EA790EC00E6F90C;
+			remoteInfo = LJMapCoordinateCorrection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A728FF151EA791A4001246C4 /* LJMapCoordinateToCorrect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMapCoordinateToCorrect.h; sourceTree = "<group>"; };
+		A728FF161EA791A4001246C4 /* LJMapCoordinateToCorrect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMapCoordinateToCorrect.m; sourceTree = "<group>"; };
+		A728FF191EA79205001246C4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A728FF1A1EA79205001246C4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A72CBA881EA790EC00E6F90C /* LJMapCoordinateCorrection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMapCoordinateCorrection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72CBA8C1EA790EC00E6F90C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A72CBA8E1EA790EC00E6F90C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A72CBA8F1EA790EC00E6F90C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A72CBA951EA790EC00E6F90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A72CBA971EA790EC00E6F90C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A72CBA9A1EA790EC00E6F90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A72CBA9C1EA790EC00E6F90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72CBAA11EA790EC00E6F90C /* LJMapCoordinateCorrectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJMapCoordinateCorrectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72CBAA51EA790EC00E6F90C /* LJMapCoordinateCorrectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJMapCoordinateCorrectionTests.m; sourceTree = "<group>"; };
+		A72CBAA71EA790EC00E6F90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72CBAAC1EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJMapCoordinateCorrectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72CBAB01EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJMapCoordinateCorrectionUITests.m; sourceTree = "<group>"; };
+		A72CBAB21EA790EC00E6F90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A72CBA851EA790EC00E6F90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72CBA9E1EA790EC00E6F90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72CBAA91EA790EC00E6F90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A728FF141EA791A4001246C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A728FF151EA791A4001246C4 /* LJMapCoordinateToCorrect.h */,
+				A728FF161EA791A4001246C4 /* LJMapCoordinateToCorrect.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A728FF171EA791A4001246C4 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A728FF191EA79205001246C4 /* ViewController.h */,
+				A728FF1A1EA79205001246C4 /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		A72CBA7F1EA790EC00E6F90C = {
+			isa = PBXGroup;
+			children = (
+				A72CBA8A1EA790EC00E6F90C /* LJMapCoordinateCorrection */,
+				A72CBAA41EA790EC00E6F90C /* LJMapCoordinateCorrectionTests */,
+				A72CBAAF1EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests */,
+				A72CBA891EA790EC00E6F90C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A72CBA891EA790EC00E6F90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A72CBA881EA790EC00E6F90C /* LJMapCoordinateCorrection.app */,
+				A72CBAA11EA790EC00E6F90C /* LJMapCoordinateCorrectionTests.xctest */,
+				A72CBAAC1EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A72CBA8A1EA790EC00E6F90C /* LJMapCoordinateCorrection */ = {
+			isa = PBXGroup;
+			children = (
+				A728FF141EA791A4001246C4 /* Classes */,
+				A728FF171EA791A4001246C4 /* Demo */,
+				A72CBA8E1EA790EC00E6F90C /* AppDelegate.h */,
+				A72CBA8F1EA790EC00E6F90C /* AppDelegate.m */,
+				A72CBA941EA790EC00E6F90C /* Main.storyboard */,
+				A72CBA971EA790EC00E6F90C /* Assets.xcassets */,
+				A72CBA991EA790EC00E6F90C /* LaunchScreen.storyboard */,
+				A72CBA9C1EA790EC00E6F90C /* Info.plist */,
+				A72CBA8B1EA790EC00E6F90C /* Supporting Files */,
+			);
+			path = LJMapCoordinateCorrection;
+			sourceTree = "<group>";
+		};
+		A72CBA8B1EA790EC00E6F90C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A72CBA8C1EA790EC00E6F90C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A72CBAA41EA790EC00E6F90C /* LJMapCoordinateCorrectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A72CBAA51EA790EC00E6F90C /* LJMapCoordinateCorrectionTests.m */,
+				A72CBAA71EA790EC00E6F90C /* Info.plist */,
+			);
+			path = LJMapCoordinateCorrectionTests;
+			sourceTree = "<group>";
+		};
+		A72CBAAF1EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A72CBAB01EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests.m */,
+				A72CBAB21EA790EC00E6F90C /* Info.plist */,
+			);
+			path = LJMapCoordinateCorrectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A72CBA871EA790EC00E6F90C /* LJMapCoordinateCorrection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72CBAB51EA790EC00E6F90C /* Build configuration list for PBXNativeTarget "LJMapCoordinateCorrection" */;
+			buildPhases = (
+				A72CBA841EA790EC00E6F90C /* Sources */,
+				A72CBA851EA790EC00E6F90C /* Frameworks */,
+				A72CBA861EA790EC00E6F90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJMapCoordinateCorrection;
+			productName = LJMapCoordinateCorrection;
+			productReference = A72CBA881EA790EC00E6F90C /* LJMapCoordinateCorrection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A72CBAA01EA790EC00E6F90C /* LJMapCoordinateCorrectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72CBAB81EA790EC00E6F90C /* Build configuration list for PBXNativeTarget "LJMapCoordinateCorrectionTests" */;
+			buildPhases = (
+				A72CBA9D1EA790EC00E6F90C /* Sources */,
+				A72CBA9E1EA790EC00E6F90C /* Frameworks */,
+				A72CBA9F1EA790EC00E6F90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72CBAA31EA790EC00E6F90C /* PBXTargetDependency */,
+			);
+			name = LJMapCoordinateCorrectionTests;
+			productName = LJMapCoordinateCorrectionTests;
+			productReference = A72CBAA11EA790EC00E6F90C /* LJMapCoordinateCorrectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A72CBAAB1EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72CBABB1EA790EC00E6F90C /* Build configuration list for PBXNativeTarget "LJMapCoordinateCorrectionUITests" */;
+			buildPhases = (
+				A72CBAA81EA790EC00E6F90C /* Sources */,
+				A72CBAA91EA790EC00E6F90C /* Frameworks */,
+				A72CBAAA1EA790EC00E6F90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72CBAAE1EA790EC00E6F90C /* PBXTargetDependency */,
+			);
+			name = LJMapCoordinateCorrectionUITests;
+			productName = LJMapCoordinateCorrectionUITests;
+			productReference = A72CBAAC1EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A72CBA801EA790EC00E6F90C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "https://liuliangju.github.io";
+				TargetAttributes = {
+					A72CBA871EA790EC00E6F90C = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZKWSDFFC99;
+						ProvisioningStyle = Automatic;
+					};
+					A72CBAA01EA790EC00E6F90C = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZKWSDFFC99;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A72CBA871EA790EC00E6F90C;
+					};
+					A72CBAAB1EA790EC00E6F90C = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZKWSDFFC99;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A72CBA871EA790EC00E6F90C;
+					};
+				};
+			};
+			buildConfigurationList = A72CBA831EA790EC00E6F90C /* Build configuration list for PBXProject "LJMapCoordinateCorrection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A72CBA7F1EA790EC00E6F90C;
+			productRefGroup = A72CBA891EA790EC00E6F90C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A72CBA871EA790EC00E6F90C /* LJMapCoordinateCorrection */,
+				A72CBAA01EA790EC00E6F90C /* LJMapCoordinateCorrectionTests */,
+				A72CBAAB1EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A72CBA861EA790EC00E6F90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72CBA9B1EA790EC00E6F90C /* LaunchScreen.storyboard in Resources */,
+				A72CBA981EA790EC00E6F90C /* Assets.xcassets in Resources */,
+				A72CBA961EA790EC00E6F90C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72CBA9F1EA790EC00E6F90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72CBAAA1EA790EC00E6F90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A72CBA841EA790EC00E6F90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72CBA901EA790EC00E6F90C /* AppDelegate.m in Sources */,
+				A728FF181EA791A4001246C4 /* LJMapCoordinateToCorrect.m in Sources */,
+				A728FF1B1EA79205001246C4 /* ViewController.m in Sources */,
+				A72CBA8D1EA790EC00E6F90C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72CBA9D1EA790EC00E6F90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72CBAA61EA790EC00E6F90C /* LJMapCoordinateCorrectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72CBAA81EA790EC00E6F90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72CBAB11EA790EC00E6F90C /* LJMapCoordinateCorrectionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A72CBAA31EA790EC00E6F90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A72CBA871EA790EC00E6F90C /* LJMapCoordinateCorrection */;
+			targetProxy = A72CBAA21EA790EC00E6F90C /* PBXContainerItemProxy */;
+		};
+		A72CBAAE1EA790EC00E6F90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A72CBA871EA790EC00E6F90C /* LJMapCoordinateCorrection */;
+			targetProxy = A72CBAAD1EA790EC00E6F90C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A72CBA941EA790EC00E6F90C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72CBA951EA790EC00E6F90C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A72CBA991EA790EC00E6F90C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72CBA9A1EA790EC00E6F90C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A72CBAB31EA790EC00E6F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A72CBAB41EA790EC00E6F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A72CBAB61EA790EC00E6F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZKWSDFFC99;
+				INFOPLIST_FILE = LJMapCoordinateCorrection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangju.LJMapCoordinateCorrection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A72CBAB71EA790EC00E6F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZKWSDFFC99;
+				INFOPLIST_FILE = LJMapCoordinateCorrection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangju.LJMapCoordinateCorrection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A72CBAB91EA790EC00E6F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZKWSDFFC99;
+				INFOPLIST_FILE = LJMapCoordinateCorrectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangju.LJMapCoordinateCorrectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJMapCoordinateCorrection.app/LJMapCoordinateCorrection";
+			};
+			name = Debug;
+		};
+		A72CBABA1EA790EC00E6F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZKWSDFFC99;
+				INFOPLIST_FILE = LJMapCoordinateCorrectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangju.LJMapCoordinateCorrectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJMapCoordinateCorrection.app/LJMapCoordinateCorrection";
+			};
+			name = Release;
+		};
+		A72CBABC1EA790EC00E6F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZKWSDFFC99;
+				INFOPLIST_FILE = LJMapCoordinateCorrectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangju.LJMapCoordinateCorrectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJMapCoordinateCorrection;
+			};
+			name = Debug;
+		};
+		A72CBABD1EA790EC00E6F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZKWSDFFC99;
+				INFOPLIST_FILE = LJMapCoordinateCorrectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liangju.LJMapCoordinateCorrectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJMapCoordinateCorrection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A72CBA831EA790EC00E6F90C /* Build configuration list for PBXProject "LJMapCoordinateCorrection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72CBAB31EA790EC00E6F90C /* Debug */,
+				A72CBAB41EA790EC00E6F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72CBAB51EA790EC00E6F90C /* Build configuration list for PBXNativeTarget "LJMapCoordinateCorrection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72CBAB61EA790EC00E6F90C /* Debug */,
+				A72CBAB71EA790EC00E6F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72CBAB81EA790EC00E6F90C /* Build configuration list for PBXNativeTarget "LJMapCoordinateCorrectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72CBAB91EA790EC00E6F90C /* Debug */,
+				A72CBABA1EA790EC00E6F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72CBABB1EA790EC00E6F90C /* Build configuration list for PBXNativeTarget "LJMapCoordinateCorrectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72CBABC1EA790EC00E6F90C /* Debug */,
+				A72CBABD1EA790EC00E6F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A72CBA801EA790EC00E6F90C /* Project object */;
+}
