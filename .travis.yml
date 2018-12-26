@@ -7,6 +7,7 @@ xcode_scheme: LJMapCoordinateCorrection
 before_install:
 - env
 - xcodebuild -version
+- xcodebuild -showsdks
 - xcpretty --version
 
 script:
