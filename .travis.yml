@@ -1,6 +1,5 @@
-# reference: http://www.objc.io/issue-6/travis-ci.html
 language: objective-c
-osx_image: xcode8.3
+osx_image: xcode8.0
 sudo: false
 env:
   global:
@@ -21,6 +20,11 @@ before_install:
   - rvm install ruby-2.2.2
   - gem install cocoapods
   - gem install xcpretty -N
+script:
+  - set -o pipefail
+  - xcodebuild clean build -project LJMapCoordinateCorrection.xcodeproj  iphonesimulator PLATFORM_NAME=iphonesimulator -configuration DEBUG
+  - xcodebuild clean build test -project LJMapCoordinateCorrection.xcodeproj -scheme  iphonesimulator PLATFORM_NAME=iphonesimulator -destination "platform=iOS Simulator,name=iPad Air 2,OS=11.4" -configuration Debug GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 after_failure:
+
